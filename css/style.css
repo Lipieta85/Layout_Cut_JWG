@@ -114,17 +114,30 @@ header .header-text .center .napis-gora {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-align: center;
-  padding-top: 10px;
+}
+
+header .header-text .center .napis-gora .napis-gora-text {
+  position: absolute;
+  z-index: 1;
+  margin: 10px auto 0 auto;
+  width: 98%;
+  margin-top: -110px;
+}
+
+header .header-text .center .napis-gora .napis-gora-image {
+  position: relative;
+  margin-left: -90px;
 }
 
 header .header-text .center .napis-srodek {
   text-align: center;
-  margin-top: 47px;
+  margin-top: -40px;
+  position: relative;
 }
 
 header .header-text .center .napis-tlo {
-  text-align: center;
   position: relative;
+  margin: 0 0 0 5vw;
 }
 
 @keyframes buttonPulse {
@@ -141,7 +154,7 @@ header .header-text .center .napis-tlo {
 
 header .header-text .center .napis-button {
   margin: 40px auto 0 auto;
-  width: 100%;
+  width: 98%;
   text-align: center;
   position: absolute;
   z-index: 1;
@@ -214,6 +227,10 @@ header .menu-col .menu div {
   header .header-text .center .napis-button .button {
     font-size: 20px;
   }
+  header .header-text .center .napis-tlo {
+    margin: 0 0 0 5vw;
+    text-align: center;
+  }
   header .menu-col {
     margin-top: -700px;
   }
@@ -223,6 +240,9 @@ header .menu-col .menu div {
 }
 
 @media (max-width: 767px) {
+  header {
+    margin: 0 5px 0 5px;
+  }
   header .pasek-gora {
     display: flex;
     justify-content: center;
@@ -275,8 +295,12 @@ header .menu-col .menu div {
     text-align: center;
     padding-top: 40px;
   }
+  header .header-text .center .napis-gora .napis-gora-image {
+    margin: 0 0 0 1vw;
+  }
   header .header-text .center .napis-button {
     margin: 15px auto 0 auto;
+    animation: none;
   }
   header .header-text .center .napis-button .button {
     font-size: 18px;
@@ -286,7 +310,7 @@ header .menu-col .menu div {
     float: right;
     width: 30px;
     height: 25px;
-    margin-top: -90vw;
+    margin-top: -80vw;
     padding: 5px 8px;
   }
   header .menu-col .menu div {
@@ -299,7 +323,7 @@ header .menu-col .menu div {
 /* --- SECTION OPIS --- */
 .opis .opis-kula-duza {
   float: right;
-  margin-top: 120px;
+  margin: 120px 20px 0 20px;
 }
 
 .opis .opis-logo .logo-rise {
@@ -446,6 +470,7 @@ header .menu-col .menu div {
 @media (max-width: 767px) {
   .opis {
     text-align: center;
+    margin: 0 10px 0 10px;
   }
   .opis .opis-kula-duza {
     float: right;
@@ -486,7 +511,7 @@ header .menu-col .menu div {
     display: none;
   }
   .opis .opis-container .opis-stanowisko .button {
-    width: 20%;
+    width: 23%;
     margin: 0 auto;
   }
 }
@@ -566,9 +591,6 @@ header .menu-col .menu div {
   .misja .container-fluid .obraz-misja-1 {
     display: none;
   }
-  .misja .container-fluid .misja-container {
-    padding: 10px;
-  }
   .misja .container-fluid .misja-container .text-container {
     display: flex;
     flex-direction: column;
@@ -618,6 +640,7 @@ header .menu-col .menu div {
 
 @media (max-width: 767px) {
   .misja {
+    margin: 0 10px 0 10px;
     padding-top: 40px;
   }
   .misja .container-fluid .obraz-misja-1 {
@@ -969,7 +992,7 @@ header .menu-col .menu div {
   }
   .time-to-unpack .ttu-container .ttu-content .ttu-text {
     margin-top: 67px;
-    margin: 10px;
+    margin: 0;
     text-align: center;
   }
   .time-to-unpack .ttu-container .ttu-content .ttu-text h4 {
@@ -1148,7 +1171,7 @@ header .menu-col .menu div {
 @media (max-width: 767px) {
   .time-to-unpack {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 10px 0 10px;
   }
   .time-to-unpack h1 {
     font-size: 40px;
@@ -1829,7 +1852,7 @@ header .menu-col .menu div {
 @media (max-width: 767px) {
   .kontakt {
     text-align: center;
-    margin-top: 40px;
+    margin: 40px 10px 0 10px;
   }
   .kontakt .kontakt-form {
     position: relative;

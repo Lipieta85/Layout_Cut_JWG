@@ -56,3 +56,4 @@ function validateEmail(selector_id) {
         document.getElementById(selector_id).style.boxShadow = "0 1px 0 0 green";
     }
 }
+
