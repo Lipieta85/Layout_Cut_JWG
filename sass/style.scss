@@ -117,7 +117,7 @@ header {
                     position: absolute;
                     z-index: 1;
                     margin: 10px auto 0 auto;
-                    width: 97%;
+                    width: 100%;
                     margin-top: -110px;
                 }
                 .napis-gora-image {
@@ -132,7 +132,8 @@ header {
             }
             .napis-tlo {
                 position: relative;
-                margin: 0 0 0 9vw;
+                text-align: center;
+                margin-left: 1vw;
             }
             @keyframes buttonPulse {
                 0% {
@@ -146,10 +147,11 @@ header {
                 }
             }
             .napis-button {
-                margin: 40px auto 0 auto;
+                position: absolute;
                 width: 97%;
                 text-align: center;
-                position: absolute;
+                margin-top: 40px;
+                margin-left: 1.2vw;
                 z-index: 1;
                 animation: buttonPulse 1s infinite;
                 .button {
@@ -225,6 +227,7 @@ header {
             }
             .center {
                 .napis-button {
+                    margin-left: 1.6vw;
                     .button {
                         font-size: 20px;
                     }
@@ -303,7 +306,8 @@ header {
                     padding-top: 40px;
                 }
                 .napis-button {
-                    margin: 22px auto 0 auto;
+                    margin-top: 22px;
+                    margin-left: 1.3vw;
                     .button {
                         font-size: 18px;
                         padding: 5px 20px;

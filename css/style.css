@@ -120,7 +120,7 @@ header .header-text .center .napis-gora .napis-gora-text {
   position: absolute;
   z-index: 1;
   margin: 10px auto 0 auto;
-  width: 97%;
+  width: 100%;
   margin-top: -110px;
 }
 
@@ -137,7 +137,8 @@ header .header-text .center .napis-srodek {
 
 header .header-text .center .napis-tlo {
   position: relative;
-  margin: 0 0 0 9vw;
+  text-align: center;
+  margin-left: 1vw;
 }
 
 @keyframes buttonPulse {
@@ -153,10 +154,11 @@ header .header-text .center .napis-tlo {
 }
 
 header .header-text .center .napis-button {
-  margin: 40px auto 0 auto;
+  position: absolute;
   width: 97%;
   text-align: center;
-  position: absolute;
+  margin-top: 40px;
+  margin-left: 1.2vw;
   z-index: 1;
   animation: buttonPulse 1s infinite;
 }
@@ -223,6 +225,9 @@ header .menu-col .menu div {
   }
   header .header-text .kula-cien {
     display: none;
+  }
+  header .header-text .center .napis-button {
+    margin-left: 1.6vw;
   }
   header .header-text .center .napis-button .button {
     font-size: 20px;
@@ -295,7 +300,8 @@ header .menu-col .menu div {
     padding-top: 40px;
   }
   header .header-text .center .napis-button {
-    margin: 22px auto 0 auto;
+    margin-top: 22px;
+    margin-left: 1.3vw;
   }
   header .header-text .center .napis-button .button {
     font-size: 18px;
