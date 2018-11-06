@@ -120,13 +120,13 @@ header .header-text .center .napis-gora .napis-gora-text {
   position: absolute;
   z-index: 1;
   margin: 10px auto 0 auto;
-  width: 98%;
+  width: 97%;
   margin-top: -110px;
 }
 
 header .header-text .center .napis-gora .napis-gora-image {
   position: relative;
-  margin-left: -90px;
+  margin-left: -150px;
 }
 
 header .header-text .center .napis-srodek {
@@ -137,7 +137,7 @@ header .header-text .center .napis-srodek {
 
 header .header-text .center .napis-tlo {
   position: relative;
-  margin: 0 0 0 5vw;
+  margin: 0 0 0 9vw;
 }
 
 @keyframes buttonPulse {
@@ -154,7 +154,7 @@ header .header-text .center .napis-tlo {
 
 header .header-text .center .napis-button {
   margin: 40px auto 0 auto;
-  width: 98%;
+  width: 97%;
   text-align: center;
   position: absolute;
   z-index: 1;
@@ -228,7 +228,6 @@ header .menu-col .menu div {
     font-size: 20px;
   }
   header .header-text .center .napis-tlo {
-    margin: 0 0 0 5vw;
     text-align: center;
   }
   header .menu-col {
@@ -295,12 +294,8 @@ header .menu-col .menu div {
     text-align: center;
     padding-top: 40px;
   }
-  header .header-text .center .napis-gora .napis-gora-image {
-    margin: 0 0 0 1vw;
-  }
   header .header-text .center .napis-button {
-    margin: 15px auto 0 auto;
-    animation: none;
+    margin: 22px auto 0 auto;
   }
   header .header-text .center .napis-button .button {
     font-size: 18px;
@@ -385,7 +380,7 @@ header .menu-col .menu div {
 .opis .opis-container .opis-stanowisko .linia-1 {
   content: "";
   margin: 0 3px;
-  padding-right: 2.93vw;
+  padding-right: 40px;
   border-bottom: 1px solid black;
   font-size: 0.5px;
 }
@@ -393,7 +388,7 @@ header .menu-col .menu div {
 .opis .opis-container .opis-stanowisko .linia-2 {
   content: "";
   margin: 0 3px;
-  padding-right: 7.32vw;
+  padding-right: 100px;
   border-bottom: 1px solid black;
   font-size: 5px;
 }
@@ -407,7 +402,6 @@ header .menu-col .menu div {
   color: #FFF;
   font-size: 24px;
   font-weight: 800;
-  margin: 0 2px;
 }
 
 .opis .opis-container .opis-stanowisko .button:hover {
@@ -1722,6 +1716,7 @@ header .menu-col .menu div {
 
 .kontakt .kontakt-text h2 {
   font-size: 40px;
+  margin-right: -1.2vw;
   letter-spacing: 5px;
   color: #333d3c;
   text-transform: uppercase;
@@ -1804,8 +1799,7 @@ header .menu-col .menu div {
     text-align: center;
   }
   .kontakt .kontakt-form {
-    margin-left: 30vw;
-    text-align: center;
+    margin-left: 31vw;
   }
   .kontakt .kontakt-image {
     float: none;
@@ -1819,6 +1813,9 @@ header .menu-col .menu div {
     text-align: center;
     margin-right: 0;
     margin-top: 210px;
+  }
+  .kontakt .kontakt-text h2 {
+    margin-right: 0;
   }
   .kontakt .kontakt-text .kontakt-text-p {
     margin-top: 60px;
@@ -1872,6 +1869,9 @@ header .menu-col .menu div {
   .kontakt .kontakt-text {
     text-align: center;
     margin: 10px 10px;
+  }
+  .kontakt .kontakt-text h2 {
+    margin-right: 0;
   }
   .kontakt .kontakt-text .kontakt-text-p p:nth-child(2),
   .kontakt .kontakt-text .kontakt-text-p p:nth-child(4) {
