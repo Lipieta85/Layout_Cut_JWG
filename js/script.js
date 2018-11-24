@@ -57,3 +57,10 @@ function validateEmail(selector_id) {
     }
 }
 
+$(function() {     
+    $('drop-menu').on('click', function(e) {
+      e.preventDefault();
+      $('drop-menu').toggleClass('hide');
+    });
+  });
+
