@@ -844,8 +844,8 @@ header {
             font-weight: 800;
             letter-spacing: 1.76vw;
             span {
-                font-size: 14px;
-                vertical-align: 31px;
+                font-size: 18px;
+                vertical-align: 28px;
                 color: $seventh-color;
                 letter-spacing: 2px;
             }
@@ -1167,6 +1167,7 @@ header {
                 font-size: 70px;
                 span {
                     font-size: 16px;
+                    vertical-align: 35px;
                 }
             }
             p {
@@ -1564,7 +1565,7 @@ header {
             .ttu-content-5 {
                 .content-5-image {
                     img {
-                        margin: 30px auto 0 auto;
+                        margin: 30px auto 0 2.5vw;
                     }
                 }
                 .ttu-text {
@@ -1633,6 +1634,21 @@ header {
     }
 }
 
+@media(max-width: 400px) {
+    .time-to-unpack {
+        .ttu-container {
+            .ttu-content-5 {
+                .content-5-image {
+                    img {
+                        margin: 30px auto 0 2.5vw;
+                        width: 95%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* --- SECTION REALIZACJE-OFERTA --- */
 
 .realizacje-oferty {
@@ -1645,29 +1661,50 @@ header {
         max-width: 680px;
         width: 100%;
         height: 420px;
+        background-color: #ebf1e3;
         text-align: center;
+        text-transform: uppercase;
         h3 {
             padding-top: 100px;
             padding-left: 1.17vw;
             font-size: 48px;
+            font-weight: 800;
+            color: $third-color;
+            letter-spacing: 5px;
             span {
-                font-size: 14px;
-                vertical-align: 22px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                color: $seventh-color;
+                font-weight: 800;
+                vertical-align: 20px;
                 margin-left: 0.366vw;
                 padding-top: 110px;
-                letter-spacing: 0;
             }
         }
         p {
             font-size: 16px;
             line-height: 24px;
+            letter-spacing: 2px;
+            color: #868782;
+            font-weight: 800;
             padding-top: 40px;
+            text-align: center;
         }
         .btn-realizacje {
             padding-top: 60px;
             .button {
                 font-size: 24px;
                 padding: 5px 28px 6px 28px;
+                background-color: #b9b7ab;
+                color: $primary-color;
+                letter-spacing: 2px;
+                text-align: center;
+                transition: 0.2s;
+                &:hover {
+                    text-decoration: none;
+                    color: #b9b7ab;
+                    background-color: $primary-color;
+                }
             }
         }
         .realizacje-image {
@@ -1680,16 +1717,24 @@ header {
         max-width: 530px;
         width: 100%;
         height: 330px;
+        background-color: #86847d;
         text-align: center;
         margin-top: 300px;
         margin-left: -7.32vw;
+        text-transform: uppercase;
         h3 {
             padding-top: 70px;
             padding-left: 1.17vw;
             font-size: 48px;
+            color: $primary-color;
+            font-weight: 800;
+            letter-spacing: 5px;
             span {
-                font-size: 14px;
-                vertical-align: 22px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                color: #bab8ac;
+                font-weight: 800;
+                vertical-align: 20px;
                 margin-left: 0.366vw;
                 padding-top: 110px;
             }
@@ -1697,12 +1742,26 @@ header {
         p {
             font-size: 16px;
             padding-top: 25px;
+            letter-spacing: 2px;
+            line-height: 24px;
+            color: $primary-color;
+            font-weight: 800;
+            text-align: center;
         }
         .btn-oferta {
-            padding-top: 10px;
+            padding-top: 15px;
             .button {
                 font-size: 24px;
-                padding: 5px 28px;
+                padding: 5px 40px;
+                color: $third-color;
+                background-color: $fifth-color;
+                letter-spacing: 2px;
+                transition: 0.2s;
+                &:hover {
+                    text-decoration: none;
+                    color: $fifth-color;
+                    background-color: $third-color;
+                }
             }
         }
     }
@@ -1802,8 +1861,8 @@ header {
         margin-left: 2.5vw;
         margin-right: 1.5vw;
         .container-image {
-            margin-top: 10px;
-            margin-left: 1.54vw;
+            margin-top: -20px;
+            margin-left: 0;
             position: absolute;
             z-index: 1;
         }
@@ -1880,8 +1939,8 @@ header {
                 margin-left: -15.37vw;
             }
             img:last-child {
-                margin-top: 540px;
-                margin-left: -1.83vw;
+                margin-top: 40px;
+                margin-left: 0;
             }
         }
     }
@@ -1907,8 +1966,7 @@ header {
                 font-size: 24px;
                 letter-spacing: 10px;
                 font-weight: 800;
-                background-color: $primary-color;
-                color: $third-color;
+                color: #333d3c;
             }
         }
         .form {
@@ -2007,16 +2065,18 @@ header {
         margin-top: 70px;
         h2 {
             font-size: 48px;
-            margin-right: -1.2vw;
+            margin-right: -1.4vw;
             letter-spacing: 5px;
             color: $third-color;
             text-transform: uppercase;
             font-weight: 800;
             span {
-                font-size: 14px;
-                vertical-align: 17px;
+                font-size: 18px;
+                letter-spacing: 2px;
+                vertical-align: 20px;
+                font-weight: 800;
+                color: $third-color;
                 margin-left: 0.366vw;
-                letter-spacing: 0;
             }
         }
         .kontakt-text-p {
@@ -2119,7 +2179,7 @@ header {
                     }
                 }
                 .form-label {
-                    font-size: 15px;
+                    font-size: 16px;
                     top: 10px;
                 }
                 .focused .form-label {
@@ -2133,7 +2193,7 @@ header {
                     padding: 1rem 0;
                 }
                 .textarea-label {
-                    font-size: 15px;
+                    font-size: 16px;
                 }
             }
         }
@@ -2153,7 +2213,7 @@ header {
                 margin-right: -1.2vw;
                 span {
                     font-size: 14px;
-                    vertical-align: 17px;
+                    vertical-align: 21px;
                     margin-left: 0.366vw;
                     letter-spacing: 0;
                 }
@@ -2202,7 +2262,7 @@ header {
 @media(max-width: 767px) {
     .kontakt {
         text-align: center;
-        margin: 40px 10px 0 10px;
+        margin: -20px 10px 0 10px;
         .container-fluid {
             padding: 0;
             .kontakt-form {
@@ -2234,7 +2294,7 @@ header {
                 h2 {
                     margin-right: 0;
                     span {
-                        vertical-align: 22px;
+                        vertical-align: 19px;
                     }
                 }
                 .kontakt-text-p {
@@ -2249,6 +2309,7 @@ header {
             }
             .kontakt-background {
                 .kontakt-image-kula {
+                    width: 90%;
                     img {
                         padding: 10px 10px
                     }
@@ -2268,6 +2329,21 @@ header {
         }
     }
 }
+
+@media(max-width: 400px) {
+    .kontakt {
+        .container-fluid {
+            .kontakt-background {
+                .kontakt-image-2 {
+                    img:first-child {
+                        max-width: 95%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 /* --- FOOTER --- */
 

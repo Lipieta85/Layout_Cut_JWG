@@ -806,8 +806,8 @@ header .drop-menu .hide {
 }
 
 .time-to-unpack .ttu-header h1 span {
-  font-size: 14px;
-  vertical-align: 31px;
+  font-size: 18px;
+  vertical-align: 28px;
   color: #868782;
   letter-spacing: 2px;
 }
@@ -1126,6 +1126,7 @@ header .drop-menu .hide {
   }
   .time-to-unpack .ttu-header h1 span {
     font-size: 16px;
+    vertical-align: 35px;
   }
   .time-to-unpack .ttu-header p {
     font-size: 20px;
@@ -1466,7 +1467,7 @@ header .drop-menu .hide {
     opacity: 0.5;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .content-5-image img {
-    margin: 30px auto 0 auto;
+    margin: 30px auto 0 2.5vw;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .ttu-text {
     margin-top: 27px;
@@ -1523,6 +1524,13 @@ header .drop-menu .hide {
   }
 }
 
+@media (max-width: 400px) {
+  .time-to-unpack .ttu-container .ttu-content-5 .content-5-image img {
+    margin: 30px auto 0 2.5vw;
+    width: 95%;
+  }
+}
+
 /* --- SECTION REALIZACJE-OFERTA --- */
 .realizacje-oferty {
   margin-top: 134px;
@@ -1537,27 +1545,38 @@ header .drop-menu .hide {
   max-width: 680px;
   width: 100%;
   height: 420px;
+  background-color: #ebf1e3;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .realizacje-oferty .realizacje h3 {
   padding-top: 100px;
   padding-left: 1.17vw;
   font-size: 48px;
+  font-weight: 800;
+  color: #333d3c;
+  letter-spacing: 5px;
 }
 
 .realizacje-oferty .realizacje h3 span {
-  font-size: 14px;
-  vertical-align: 22px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #868782;
+  font-weight: 800;
+  vertical-align: 20px;
   margin-left: 0.366vw;
   padding-top: 110px;
-  letter-spacing: 0;
 }
 
 .realizacje-oferty .realizacje p {
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 2px;
+  color: #868782;
+  font-weight: 800;
   padding-top: 40px;
+  text-align: center;
 }
 
 .realizacje-oferty .realizacje .btn-realizacje {
@@ -1567,6 +1586,17 @@ header .drop-menu .hide {
 .realizacje-oferty .realizacje .btn-realizacje .button {
   font-size: 24px;
   padding: 5px 28px 6px 28px;
+  background-color: #b9b7ab;
+  color: #FFF;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.realizacje-oferty .realizacje .btn-realizacje .button:hover {
+  text-decoration: none;
+  color: #b9b7ab;
+  background-color: #FFF;
 }
 
 .realizacje-oferty .realizacje .realizacje-image {
@@ -1579,20 +1609,28 @@ header .drop-menu .hide {
   max-width: 530px;
   width: 100%;
   height: 330px;
+  background-color: #86847d;
   text-align: center;
   margin-top: 300px;
   margin-left: -7.32vw;
+  text-transform: uppercase;
 }
 
 .realizacje-oferty .oferta h3 {
   padding-top: 70px;
   padding-left: 1.17vw;
   font-size: 48px;
+  color: #FFF;
+  font-weight: 800;
+  letter-spacing: 5px;
 }
 
 .realizacje-oferty .oferta h3 span {
-  font-size: 14px;
-  vertical-align: 22px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #bab8ac;
+  font-weight: 800;
+  vertical-align: 20px;
   margin-left: 0.366vw;
   padding-top: 110px;
 }
@@ -1600,15 +1638,30 @@ header .drop-menu .hide {
 .realizacje-oferty .oferta p {
   font-size: 16px;
   padding-top: 25px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #FFF;
+  font-weight: 800;
+  text-align: center;
 }
 
 .realizacje-oferty .oferta .btn-oferta {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .realizacje-oferty .oferta .btn-oferta .button {
   font-size: 24px;
-  padding: 5px 28px;
+  padding: 5px 40px;
+  color: #333d3c;
+  background-color: #caf2f1;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.realizacje-oferty .oferta .btn-oferta .button:hover {
+  text-decoration: none;
+  color: #caf2f1;
+  background-color: #333d3c;
 }
 
 .realizacje-oferty .realizacje-kropka img:first-child {
@@ -1700,8 +1753,8 @@ header .drop-menu .hide {
     margin-right: 1.5vw;
   }
   .realizacje-oferty .container-image {
-    margin-top: 10px;
-    margin-left: 1.54vw;
+    margin-top: -20px;
+    margin-left: 0;
     position: absolute;
     z-index: 1;
   }
@@ -1777,8 +1830,8 @@ header .drop-menu .hide {
     margin-left: -15.37vw;
   }
   .realizacje-oferty .realizacje-kropka img:last-child {
-    margin-top: 540px;
-    margin-left: -1.83vw;
+    margin-top: 40px;
+    margin-left: 0;
   }
 }
 
@@ -1804,7 +1857,6 @@ header .drop-menu .hide {
   font-size: 24px;
   letter-spacing: 10px;
   font-weight: 800;
-  background-color: #FFF;
   color: #333d3c;
 }
 
@@ -1920,7 +1972,7 @@ header .drop-menu .hide {
 
 .kontakt .kontakt-text h2 {
   font-size: 48px;
-  margin-right: -1.2vw;
+  margin-right: -1.4vw;
   letter-spacing: 5px;
   color: #333d3c;
   text-transform: uppercase;
@@ -1928,10 +1980,12 @@ header .drop-menu .hide {
 }
 
 .kontakt .kontakt-text h2 span {
-  font-size: 14px;
-  vertical-align: 17px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  vertical-align: 20px;
+  font-weight: 800;
+  color: #333d3c;
   margin-left: 0.366vw;
-  letter-spacing: 0;
 }
 
 .kontakt .kontakt-text .kontakt-text-p {
@@ -2023,7 +2077,7 @@ header .drop-menu .hide {
     font-size: 18px;
   }
   .kontakt .kontakt-form .form .form-label {
-    font-size: 15px;
+    font-size: 16px;
     top: 10px;
   }
   .kontakt .kontakt-form .form .focused .form-label {
@@ -2037,7 +2091,7 @@ header .drop-menu .hide {
     padding: 1rem 0;
   }
   .kontakt .kontakt-form .form .textarea-label {
-    font-size: 15px;
+    font-size: 16px;
   }
   .kontakt .kontakt-image {
     float: left;
@@ -2057,7 +2111,7 @@ header .drop-menu .hide {
   }
   .kontakt .kontakt-text h2 span {
     font-size: 14px;
-    vertical-align: 17px;
+    vertical-align: 21px;
     margin-left: 0.366vw;
     letter-spacing: 0;
   }
@@ -2097,7 +2151,7 @@ header .drop-menu .hide {
 @media (max-width: 767px) {
   .kontakt {
     text-align: center;
-    margin: 40px 10px 0 10px;
+    margin: -20px 10px 0 10px;
   }
   .kontakt .container-fluid {
     padding: 0;
@@ -2131,7 +2185,7 @@ header .drop-menu .hide {
     margin-right: 0;
   }
   .kontakt .container-fluid .kontakt-text h2 span {
-    vertical-align: 22px;
+    vertical-align: 19px;
   }
   .kontakt .container-fluid .kontakt-text .kontakt-text-p p:nth-child(2),
   .kontakt .container-fluid .kontakt-text .kontakt-text-p p:nth-child(4) {
@@ -2139,6 +2193,9 @@ header .drop-menu .hide {
   }
   .kontakt .container-fluid .kontakt-text-image {
     display: block;
+  }
+  .kontakt .container-fluid .kontakt-background .kontakt-image-kula {
+    width: 90%;
   }
   .kontakt .container-fluid .kontakt-background .kontakt-image-kula img {
     padding: 10px 10px;
@@ -2151,6 +2208,12 @@ header .drop-menu .hide {
   }
   .kontakt .container-fluid .kontakt-background .kontakt-image-2 img:last-child {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .kontakt .container-fluid .kontakt-background .kontakt-image-2 img:first-child {
+    max-width: 95%;
   }
 }
 
