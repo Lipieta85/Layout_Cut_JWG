@@ -1538,7 +1538,7 @@ header .drop-menu .hide {
 
 .realizacje-oferty .container-image {
   margin-top: 278px;
-  margin-left: 4.54vw;
+  margin-left: 3.24vw;
 }
 
 .realizacje-oferty .realizacje {
@@ -1753,7 +1753,7 @@ header .drop-menu .hide {
     margin-right: 1.5vw;
   }
   .realizacje-oferty .container-image {
-    margin-top: -20px;
+    margin-top: -40px;
     margin-left: 0;
     position: absolute;
     z-index: 1;
@@ -1772,7 +1772,7 @@ header .drop-menu .hide {
   }
   .realizacje-oferty .realizacje h3 span {
     font-size: 18px;
-    vertical-align: 22px;
+    vertical-align: 19px;
     margin-left: 0.366vw;
     padding-top: 110px;
     letter-spacing: 0;
@@ -1808,7 +1808,7 @@ header .drop-menu .hide {
   }
   .realizacje-oferty .oferta h3 span {
     font-size: 18px;
-    vertical-align: 22px;
+    vertical-align: 19px;
     margin-left: 0.366vw;
     padding-top: 110px;
   }
@@ -1857,7 +1857,7 @@ header .drop-menu .hide {
   font-size: 24px;
   letter-spacing: 10px;
   font-weight: 800;
-  color: #333d3c;
+  color: black;
 }
 
 .kontakt .kontakt-form .form {
@@ -2353,7 +2353,7 @@ footer .footer-content .footer-logo-2 {
   footer .footer-content .social-media .fb {
     font-size: 21.5px;
     padding: 0 3px 0 9px;
-    margin-top: 3px;
+    margin-top: 2px;
     border: 2px solid #333d3c;
   }
   footer .footer-content .footer-sections {
