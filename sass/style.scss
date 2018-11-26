@@ -1410,17 +1410,17 @@ header {
             }
         }
         .ttu-container {
-            .content-image {
-                img:first-child {
-                    margin-left: 5.84vw;
-                    margin-top: 50px;
-                }
-                img:nth-child(2) {
-                    margin-left: 5.88vw;
-                    margin-top: -50px;
-                }
-            }
             .ttu-content {
+                .content-image {
+                    img:first-child {
+                        margin-left: 5.84vw;
+                        margin-top: 50px;
+                    }
+                    img:nth-child(2) {
+                        margin-left: 5.88vw;
+                        margin-top: -50px;
+                    }
+                }
                 .ttu-text {
                     margin-top: 50px;
                     margin-left: 5.12vw;
@@ -1478,8 +1478,8 @@ header {
                         margin: 150px auto 0 auto;
                     }
                     img:last-child {
-                        margin-top: -70px;
-                        margin-left: 85.70vw;
+                        margin-top: -300px;
+                        margin-left: 77.70vw;
                     }
                 }
             }
@@ -1565,7 +1565,7 @@ header {
             .ttu-content-5 {
                 .content-5-image {
                     img {
-                        margin: 30px auto 0 2.5vw;
+                        margin: 100px auto 0 2.5vw;
                     }
                 }
                 .ttu-text {
@@ -1585,7 +1585,7 @@ header {
                 }
                 .content-5-image-2 {
                     img:first-child {
-                        margin-top: 0;
+                        margin-top: 30px;
                         margin-left: 5.66vw;
                     }
                     img:last-child {
@@ -1596,6 +1596,7 @@ header {
                 }
             }
             .ttu-content-6 {
+                margin-top: 50px;
                 .content-6-image {
                     img {
                         float: left;
@@ -2343,7 +2344,6 @@ header {
         }
     }
 }
-
 
 /* --- FOOTER --- */
 

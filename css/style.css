@@ -1330,11 +1330,11 @@ header .drop-menu .hide {
     font-size: 22px;
     margin-top: 60px;
   }
-  .time-to-unpack .ttu-container .content-image img:first-child {
+  .time-to-unpack .ttu-container .ttu-content .content-image img:first-child {
     margin-left: 5.84vw;
     margin-top: 50px;
   }
-  .time-to-unpack .ttu-container .content-image img:nth-child(2) {
+  .time-to-unpack .ttu-container .ttu-content .content-image img:nth-child(2) {
     margin-left: 5.88vw;
     margin-top: -50px;
   }
@@ -1392,8 +1392,8 @@ header .drop-menu .hide {
     margin: 150px auto 0 auto;
   }
   .time-to-unpack .ttu-container .ttu-content-2 .content-2-image-2 img:last-child {
-    margin-top: -70px;
-    margin-left: 85.70vw;
+    margin-top: -300px;
+    margin-left: 77.70vw;
   }
   .time-to-unpack .ttu-container .ttu-content-3 {
     display: flex;
@@ -1467,7 +1467,7 @@ header .drop-menu .hide {
     opacity: 0.5;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .content-5-image img {
-    margin: 30px auto 0 2.5vw;
+    margin: 100px auto 0 2.5vw;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .ttu-text {
     margin-top: 27px;
@@ -1485,13 +1485,16 @@ header .drop-menu .hide {
     font-size: 20px;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .content-5-image-2 img:first-child {
-    margin-top: 0;
+    margin-top: 30px;
     margin-left: 5.66vw;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .content-5-image-2 img:last-child {
     margin-top: 20px;
     float: right;
     margin-right: 13.11vw;
+  }
+  .time-to-unpack .ttu-container .ttu-content-6 {
+    margin-top: 50px;
   }
   .time-to-unpack .ttu-container .ttu-content-6 .content-6-image img {
     float: left;
