@@ -220,7 +220,7 @@ img {
   position: fixed;
   display: flex;
   justify-content: flex-end;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
 }
 
@@ -278,9 +278,9 @@ img {
     font-size: 18px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 55px;
+    margin-top: 56px;
     margin-left: 1vw;
-    font-size: 14px;
+    font-size: 13px;
   }
   .header .upper-bar .upper-bar-languages {
     margin-top: 48px;
@@ -337,7 +337,7 @@ img {
     font-size: 19px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 57px;
+    margin-top: 56.5px;
     margin-left: 2vw;
     font-size: 13px;
     padding: 1px 2px 0 5px;
@@ -442,7 +442,7 @@ img {
     margin-top: -155px;
   }
   .header .header-text .header-text-center .header-text-content-2 .header-text-scroll :before {
-    margin: 0 0 0 -1px;
+    margin: 0 0 0 -2px;
     height: 50px;
     bottom: -40px;
   }
@@ -1103,12 +1103,12 @@ img {
 
 .time-to-unpack .ttu-container .ttu-content-4 .content-4-image img:nth-child(2) {
   margin-top: 200px;
-  margin-left: 4.76vw;
+  margin-left: 4vw;
 }
 
 .time-to-unpack .ttu-container .ttu-content-4 .content-4-image img:nth-child(3) {
   margin-top: 270px;
-  margin-left: 1.46vw;
+  margin-left: 4px;
 }
 
 .time-to-unpack .ttu-container .ttu-content-4 .ttu-text-content {
@@ -1244,6 +1244,15 @@ img {
 @media (min-width: 992px) and (max-width: 1199px) {
   .time-to-unpack .ttu-container .ttu-content .ttu-text {
     margin-left: 10.12vw;
+  }
+  .time-to-unpack .ttu-container .ttu-content-4 .content-4-image img:nth-child(2) {
+    margin-top: 200px;
+    margin-left: 4.5vw;
+  }
+  .time-to-unpack .ttu-container .ttu-content-4 .content-4-image img:nth-child(3) {
+    float: right;
+    margin-top: 0;
+    margin-left: 5px;
   }
   .time-to-unpack .ttu-container .ttu-content-5 .ttu-text {
     margin-left: 10.32vw;
@@ -1810,10 +1819,16 @@ img {
     margin-top: 100px;
   }
   .boxes .boxes-content .container-image {
-    margin-left: 1vw;
+    display: none;
   }
   .boxes .boxes-content .box-one {
     margin-left: 1vw;
+  }
+  .boxes .boxes-content .box-two {
+    margin-right: 0.7vw;
+  }
+  .boxes .boxes-content .box-two-dot {
+    display: none;
   }
 }
 
