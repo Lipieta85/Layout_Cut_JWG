@@ -13,7 +13,7 @@ $font: sofia-pro;
 }
 
 body {
-    background-color: $fifth-color;
+    background: linear-gradient(-85deg, #f3ddc3 0, #f3ddc3 30%, #caf2f1 90%);
 }
 
 [class*="col"] {
@@ -80,7 +80,7 @@ img {
             margin-top: 48px;
             margin-left: 38vw;
             .languages-button {
-                background-color: $fifth-color;
+                background-color: #F2DDC4;
                 font-size: 17px;
                 font-weight: 600;
                 border: 0;
@@ -344,16 +344,19 @@ img {
                 display: none;
             }
             .upper-bar-social-media {
+                text-align: center;
                 margin-left: 0;
                 .upper-bar-in {
                     margin-left: 0;
                     margin-top: 55px;
-                    font-size: 19px;
+                    font-size: 21px;
                 }
                 .upper-bar-fb {
-                    margin-top: 56.5px;
+                    margin-top: 57px;
                     margin-left: 2vw;
                     font-size: 13px;
+                    width: 18px;
+                    height: 18px;
                     padding: 1px 2px 0 5px;
                     border: 1px solid $secondary-color;
                     border-radius: 3px;
@@ -417,6 +420,25 @@ img {
 
 @media(max-width: 540px) {
     .header {
+        .upper-bar {
+            justify-content: space-around;
+            .upper-bar-social-media {
+                margin-left: 0;
+                .upper-bar-in {
+                    margin-left: 0;
+                    margin-top: 55px;
+                    font-size: 21px;
+                }
+                .upper-bar-fb {
+                    margin-top: 57.5px;
+                    margin-left: 2vw;
+                    font-size: 13px;
+                }
+            }
+        }
+        .upper-bar-image {
+            display: none;
+        }
         .header-text {
             .header-text-ball-shadow {
                 display: none;
@@ -464,6 +486,25 @@ img {
 
 @media(max-width: 400px) {
     .header {
+        .upper-bar {
+            justify-content: space-around;
+            .upper-bar-social-media {
+                margin-left: 0;
+                .upper-bar-in {
+                    margin-top: 55px;
+                }
+                .upper-bar-fb {
+                    margin-top: 57.5px;
+                }
+            }
+            .upper-bar-languages {
+                margin-top: 52px;
+                margin-left: 0;
+            }
+        }
+        .upper-bar-image {
+            display: none;
+        }
         .header-text {
             .header-text-center {
                 .header-text-content {

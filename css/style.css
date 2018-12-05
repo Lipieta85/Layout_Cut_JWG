@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #caf2f1;
+  background: linear-gradient(-85deg, #f3ddc3 0, #f3ddc3 30%, #caf2f1 90%);
 }
 
 [class*="col"] {
@@ -81,7 +81,7 @@ img {
 }
 
 .header .upper-bar .upper-bar-languages .languages-button {
-  background-color: #caf2f1;
+  background-color: #F2DDC4;
   font-size: 17px;
   font-weight: 600;
   border: 0;
@@ -329,17 +329,20 @@ img {
     display: none;
   }
   .header .upper-bar .upper-bar-social-media {
+    text-align: center;
     margin-left: 0;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-in {
     margin-left: 0;
     margin-top: 55px;
-    font-size: 19px;
+    font-size: 21px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 56.5px;
+    margin-top: 57px;
     margin-left: 2vw;
     font-size: 13px;
+    width: 18px;
+    height: 18px;
     padding: 1px 2px 0 5px;
     border: 1px solid #64706d;
     border-radius: 3px;
@@ -393,6 +396,25 @@ img {
 }
 
 @media (max-width: 540px) {
+  .header .upper-bar {
+    justify-content: space-around;
+  }
+  .header .upper-bar .upper-bar-social-media {
+    margin-left: 0;
+  }
+  .header .upper-bar .upper-bar-social-media .upper-bar-in {
+    margin-left: 0;
+    margin-top: 55px;
+    font-size: 21px;
+  }
+  .header .upper-bar .upper-bar-social-media .upper-bar-fb {
+    margin-top: 57.5px;
+    margin-left: 2vw;
+    font-size: 13px;
+  }
+  .header .upper-bar-image {
+    display: none;
+  }
   .header .header-text .header-text-ball-shadow {
     display: none;
   }
@@ -432,6 +454,25 @@ img {
 }
 
 @media (max-width: 400px) {
+  .header .upper-bar {
+    justify-content: space-around;
+  }
+  .header .upper-bar .upper-bar-social-media {
+    margin-left: 0;
+  }
+  .header .upper-bar .upper-bar-social-media .upper-bar-in {
+    margin-top: 55px;
+  }
+  .header .upper-bar .upper-bar-social-media .upper-bar-fb {
+    margin-top: 57.5px;
+  }
+  .header .upper-bar .upper-bar-languages {
+    margin-top: 52px;
+    margin-left: 0;
+  }
+  .header .upper-bar-image {
+    display: none;
+  }
   .header .header-text .header-text-center .header-text-content .header-text-big span {
     font-size: 40px;
   }
