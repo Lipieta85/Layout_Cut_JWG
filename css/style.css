@@ -1,11 +1,9 @@
 * {
-  box-sizing: border-box;
   font-family: ff-good-headline-web-pro-ext;
-  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 body {
-  background: linear-gradient(-85deg, #f3ddc3 0, #f3ddc3 30%, #caf2f1 90%);
+  background: linear-gradient(-85deg, #f3ddc3 0, #caf2f1 90%);
 }
 
 [class*="col"] {
@@ -17,6 +15,10 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.container-fluid {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 @keyframes slideInFromLeft {
@@ -81,7 +83,7 @@ img {
 }
 
 .header .upper-bar .upper-bar-languages .languages-button {
-  background-color: #F2DDC4;
+  background: 0;
   font-size: 17px;
   font-weight: 600;
   border: 0;
@@ -159,6 +161,18 @@ img {
   z-index: 1;
   margin-top: -65px;
   margin-left: 19vw;
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .header .header-text .header-text-center .header-text-content-2 .header-text-button {
@@ -278,9 +292,9 @@ img {
     font-size: 18px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 56px;
+    margin-top: 56.5px;
     margin-left: 1vw;
-    font-size: 13px;
+    font-size: 12px;
   }
   .header .upper-bar .upper-bar-languages {
     margin-top: 48px;
@@ -338,12 +352,10 @@ img {
     font-size: 21px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 57px;
+    margin-top: 56.5px;
     margin-left: 2vw;
-    font-size: 13px;
-    width: 18px;
-    height: 18px;
-    padding: 1px 2px 0 5px;
+    font-size: 14px;
+    padding: 2px 3px 0 5px;
     border: 1px solid #64706d;
     border-radius: 3px;
   }
@@ -399,7 +411,14 @@ img {
   .header .upper-bar {
     justify-content: space-around;
   }
+  .header .upper-bar .upper-bar-logo {
+    margin-left: 0;
+  }
+  .header .upper-bar .upper-bar-ball-up {
+    display: none;
+  }
   .header .upper-bar .upper-bar-social-media {
+    text-align: center;
     margin-left: 0;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-in {
@@ -408,9 +427,16 @@ img {
     font-size: 21px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 57.5px;
+    margin-top: 57px;
     margin-left: 2vw;
-    font-size: 13px;
+    font-size: 14px;
+    padding: 2px 3px 0 5px;
+    border: 1px solid #64706d;
+    border-radius: 3px;
+  }
+  .header .upper-bar .upper-bar-languages {
+    margin-top: 52px;
+    margin-left: 0;
   }
   .header .upper-bar-image {
     display: none;
@@ -454,25 +480,6 @@ img {
 }
 
 @media (max-width: 400px) {
-  .header .upper-bar {
-    justify-content: space-around;
-  }
-  .header .upper-bar .upper-bar-social-media {
-    margin-left: 0;
-  }
-  .header .upper-bar .upper-bar-social-media .upper-bar-in {
-    margin-top: 55px;
-  }
-  .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 57.5px;
-  }
-  .header .upper-bar .upper-bar-languages {
-    margin-top: 52px;
-    margin-left: 0;
-  }
-  .header .upper-bar-image {
-    display: none;
-  }
   .header .header-text .header-text-center .header-text-content .header-text-big span {
     font-size: 40px;
   }
@@ -1575,7 +1582,7 @@ img {
   }
   .time-to-unpack .ttu-container .ttu-content-3 .content-3-image img {
     margin: 0 auto;
-    max-width: 30%;
+    max-width: 20%;
   }
   .time-to-unpack .ttu-container .ttu-content-3 .ttu-text {
     margin-top: 30px;
@@ -1839,10 +1846,10 @@ img {
   background-color: #caf2f1;
   letter-spacing: 2px;
   transition: 0.2s;
+  text-decoration: none;
 }
 
 .boxes .boxes-content .box-two .box-two-btn .button:hover {
-  text-decoration: none;
   color: #caf2f1;
   background-color: #333d3c;
 }

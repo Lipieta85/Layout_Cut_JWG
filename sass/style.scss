@@ -7,13 +7,11 @@ $six-color: #bab8ac;
 $seventh-color: #868782;
 $font: sofia-pro;
 * {
-    box-sizing: border-box;
     font-family: ff-good-headline-web-pro-ext;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 body {
-    background: linear-gradient(-85deg, #f3ddc3 0, #f3ddc3 30%, #caf2f1 90%);
+    background: linear-gradient(-85deg, #f3ddc3 0, #caf2f1 90%);
 }
 
 [class*="col"] {
@@ -25,6 +23,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.container-fluid {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 @keyframes slideInFromLeft {
@@ -80,7 +82,7 @@ img {
             margin-top: 48px;
             margin-left: 38vw;
             .languages-button {
-                background-color: #F2DDC4;
+                background: 0;
                 font-size: 17px;
                 font-weight: 600;
                 border: 0;
@@ -151,6 +153,17 @@ img {
                         margin-top: -65px;
                         margin-left: 19vw;
                     }
+                }
+            }
+            @keyframes buttonPulse {
+                0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.05);
+                }
+                100% {
+                    transform: scale(1);
                 }
             }
             .header-text-content-2 {
@@ -282,9 +295,9 @@ img {
                     font-size: 18px;
                 }
                 .upper-bar-fb {
-                    margin-top: 56px;
+                    margin-top: 56.5px;
                     margin-left: 1vw;
-                    font-size: 13px;
+                    font-size: 12px;
                 }
             }
             .upper-bar-languages {
@@ -352,12 +365,10 @@ img {
                     font-size: 21px;
                 }
                 .upper-bar-fb {
-                    margin-top: 57px;
+                    margin-top: 56.5px;
                     margin-left: 2vw;
-                    font-size: 13px;
-                    width: 18px;
-                    height: 18px;
-                    padding: 1px 2px 0 5px;
+                    font-size: 14px;
+                    padding: 2px 3px 0 5px;
                     border: 1px solid $secondary-color;
                     border-radius: 3px;
                 }
@@ -422,7 +433,14 @@ img {
     .header {
         .upper-bar {
             justify-content: space-around;
+            .upper-bar-logo {
+                margin-left: 0;
+            }
+            .upper-bar-ball-up {
+                display: none;
+            }
             .upper-bar-social-media {
+                text-align: center;
                 margin-left: 0;
                 .upper-bar-in {
                     margin-left: 0;
@@ -430,10 +448,17 @@ img {
                     font-size: 21px;
                 }
                 .upper-bar-fb {
-                    margin-top: 57.5px;
+                    margin-top: 57px;
                     margin-left: 2vw;
-                    font-size: 13px;
+                    font-size: 14px;
+                    padding: 2px 3px 0 5px;
+                    border: 1px solid $secondary-color;
+                    border-radius: 3px;
                 }
+            }
+            .upper-bar-languages {
+                margin-top: 52px;
+                margin-left: 0;
             }
         }
         .upper-bar-image {
@@ -486,25 +511,6 @@ img {
 
 @media(max-width: 400px) {
     .header {
-        .upper-bar {
-            justify-content: space-around;
-            .upper-bar-social-media {
-                margin-left: 0;
-                .upper-bar-in {
-                    margin-top: 55px;
-                }
-                .upper-bar-fb {
-                    margin-top: 57.5px;
-                }
-            }
-            .upper-bar-languages {
-                margin-top: 52px;
-                margin-left: 0;
-            }
-        }
-        .upper-bar-image {
-            display: none;
-        }
         .header-text {
             .header-text-center {
                 .header-text-content {
@@ -1685,7 +1691,7 @@ img {
                     text-align: center;
                     img {
                         margin: 0 auto;
-                        max-width: 30%;
+                        max-width: 20%;
                     }
                 }
                 .ttu-text {
@@ -1953,8 +1959,8 @@ img {
                     background-color: $fifth-color;
                     letter-spacing: 2px;
                     transition: 0.2s;
+                    text-decoration: none;
                     &:hover {
-                        text-decoration: none;
                         color: $fifth-color;
                         background-color: $third-color;
                     }
