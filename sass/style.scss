@@ -8,15 +8,17 @@ $seventh-color: #868782;
 $font: sofia-pro;
 * {
     font-family: ff-good-headline-web-pro-ext;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background: linear-gradient(-85deg, #f3ddc3 0, #caf2f1 90%);
+    margin: 0;
 }
 
 [class*="col"] {
     padding: 0px;
-    margin: 0;
     min-height: 1px;
 }
 
@@ -219,16 +221,15 @@ img {
         }
     }
     .header-menu {
-        position: fixed;
         display: flex;
         justify-content: flex-end;
         z-index: 10;
         width: 100%;
         .icon-hamburger {
             background-color: $third-color;
+            margin-top: -400px;
             width: 35px;
             height: 30px;
-            margin-top: 150px;
             padding: 6px 10px;
             &:hover {
                 background-color: $six-color;
@@ -295,9 +296,9 @@ img {
                     font-size: 18px;
                 }
                 .upper-bar-fb {
-                    margin-top: 56.5px;
+                    margin-top: 56px;
                     margin-left: 1vw;
-                    font-size: 12px;
+                    font-size: 13px;
                 }
             }
             .upper-bar-languages {
@@ -337,7 +338,7 @@ img {
                     .header-text-scroll {
                         margin-top: -290px;
                         :before {
-                            margin: 0 0 0 -1px;
+                            margin: 0 0 0 -2px;
                         }
                     }
                 }
@@ -382,6 +383,7 @@ img {
             display: none;
         }
         .header-text {
+            margin-left: 10px;
             .header-text-ball-shadow {
                 display: none;
             }
@@ -427,6 +429,9 @@ img {
             }
         }
     }
+    .header-menu {
+        margin-top: 150px;
+    }
 }
 
 @media(max-width: 540px) {
@@ -448,7 +453,7 @@ img {
                     font-size: 21px;
                 }
                 .upper-bar-fb {
-                    margin-top: 56px;
+                    margin-top: 56.5px;
                     margin-left: 2vw;
                     font-size: 14px;
                     padding: 2px 3px 0 5px;
@@ -507,6 +512,9 @@ img {
             }
         }
     }
+    .header-menu {
+            margin-top: 200px;
+    }
 }
 
 @media(max-width: 400px) {
@@ -535,6 +543,9 @@ img {
                 }
             }
         }
+    }
+    .header-menu {
+        margin-top: 200px;
     }
 }
 
@@ -720,8 +731,8 @@ img {
 
 @media(max-width: 767px) {
     .about-us {
-        margin-top: 200px;
-        margin-right: 2vw;
+        margin-top: 60px;
+        margin-right: 0;
         .about-us-ball-big {
             display: none;
         }
@@ -820,6 +831,12 @@ img {
                 }
             }
         }
+    }
+}
+
+@media(max-width: 540px) {
+    .about-us {
+        margin-top: -40px;
     }
 }
 
@@ -1982,7 +1999,7 @@ img {
         margin-top: 100px;
         .boxes-content {
             .container-image {
-               display: none;
+                display: none;
             }
             .box-one {
                 margin-left: 1vw;
@@ -2355,7 +2372,7 @@ img {
         margin: 50px 10px 0 10px;
         .container-fluid {
             padding: 0;
-            text-align: center;
+            margin: o auto;
             .contact-form {
                 position: relative;
                 width: 320px;
