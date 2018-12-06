@@ -384,7 +384,7 @@ img {
     margin-left: -6.8vw;
   }
   .header .header-text .header-text-center .header-text-content .header-text-big span {
-    font-size: 65px;
+    font-size: 64.5px;
     letter-spacing: 5px;
   }
   .header .header-text .header-text-center .header-text-content .header-text-big img:last-child {
@@ -430,11 +430,11 @@ img {
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-in {
     margin-left: 0;
-    margin-top: 55px;
+    margin-top: 54px;
     font-size: 21px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 56.5px;
+    margin-top: 56px;
     margin-left: 2vw;
     font-size: 14px;
     padding: 2px 3px 0 5px;
@@ -505,7 +505,7 @@ img {
     bottom: -40px;
   }
   .header-menu {
-    margin-top: 200px;
+    margin-top: 220px;
   }
 }
 
