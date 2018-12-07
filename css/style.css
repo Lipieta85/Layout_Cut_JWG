@@ -431,14 +431,14 @@ img {
   .header .upper-bar .upper-bar-social-media .upper-bar-in {
     margin-left: 0;
     margin-top: 54px;
-    font-size: 21px;
+    font-size: 22px;
   }
   .header .upper-bar .upper-bar-social-media .upper-bar-fb {
-    margin-top: 55px;
+    margin-top: 55.5px;
     margin-left: 2vw;
     font-size: 14px;
-    padding: 2px 3px 0 5px;
-    border: 1px solid #64706d;
+    padding: 2px 3px 1px 5px;
+    border: 1.4px solid #64706d;
     border-radius: 3px;
   }
   .header .upper-bar .upper-bar-languages {
